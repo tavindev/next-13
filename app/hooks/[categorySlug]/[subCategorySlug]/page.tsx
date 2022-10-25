@@ -1,6 +1,6 @@
-import { use } from 'react';
 import { fetchSubCategory, PageProps } from '@/lib/getCategories';
 import { SkeletonCard } from '@/ui/SkeletonCard';
+import { use } from 'react';
 
 export default function Page({ params }: PageProps) {
   const category = use(
